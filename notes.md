@@ -13,6 +13,8 @@
 * As a user, I'd like to see a map view of the project location.
 * As an admin, I'd like have a secure login.
 
+* DESIGN: Style alternating tiles.
+
 ## Project Model
 * goal date (ember moment)
 * target goal $$ (computed properties)
