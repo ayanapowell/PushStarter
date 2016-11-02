@@ -1,9 +1,7 @@
 <div class="nav row">
-  <div class="col-sm-4 nav-icon">
-    <i class="fa fa-bars" aria-hidden="true"></i>
-  </div>
+  {{nav-button}}
   <div class="col-sm-4 title">
-    <h2>E-COMMERCE</h2>
+    <h2 href="/">PUSH <span>STARTER</span></h2>
   </div>
   <div class="col-sm-4 icons">
     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -12,6 +10,9 @@
        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
        <i class="fa fa-search" aria-hidden="true"></i>
   </div>
+</div>
+<div class="nav-contents">
+  {{nav-content}}
 </div>
 <div class="container content">
   {{outlet}}

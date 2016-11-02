@@ -4,7 +4,7 @@
       <img class="header" src={{project.image}}>
     </div>
     <div class="col-md-7 col-md-offset-1">
-      <p class="tile-title">{{project.name}}</p>
+      {{#link-to 'project' project.id}}<p class="tile-title">{{project.name}}</p>{{/link-to}}
       <p class="tile-content">By: {{project.owner}}</p>
       <p class="tile-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>

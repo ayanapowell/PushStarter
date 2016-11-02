@@ -1,0 +1,44 @@
+<div class="project-view">
+  <div class="row">
+    <div class="col-md-12 intro">
+      <img class="header" src={{project.image}}>
+      <div class="view-box">
+        <p class="view-title">{{project.name}}</p>
+        <p class="view-subtitle">By: {{project.owner}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="details">
+    <div class="row">
+      <h3 class="col-sm-12">About the company..</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-7 col-md-offset-1">
+        <p class="view-content">About the company: {{project.detail}}</p>
+      </div>
+      <div class="col-md-3 col-md-offset-1 view-funds">
+        <div>
+          <p><strong>Goal:</strong> ${{project.goal_amount}}</p>
+        </div>
+        <div>
+          <p><strong>Contributed: </strong>${{project.current_amount}}.00</p>
+        </div>
+        <div>
+        {{#if project.funded}}
+          <p>Say congrats to {{project.owner}} for making it to their goal!</p>
+        {{else}}
+          <p><em>Closes {{moment-from-now project.goal_date interval=1000}}</em></p>
+        {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tile-footer row">
+  {{#if project.funded}}
+    <p>Goal has been met!</p>
+  {{else}}
+    <!-- <p>Help {{project.author}} meet their goal!</p> -->
+  {{/if}}
+  <!-- <h4>{{project.location}}</h4> -->
+</div>
