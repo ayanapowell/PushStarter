@@ -1,10 +1,11 @@
 ## User Stories
 ### MVP
 * As a user, I want to browse and invest in projects.
-* As a user, I want to add projects to a wish-list.
+* DONE As a user, I want to add projects to a wish-list.
 * As a user, I'd like to see options for sorting projects.
 * DONE As user, I'd to see a detail view.
 * As an admin, I want to manage (create, update, delete) all projects.
+* Use a helper, somehow!?
 
 ### Stretch Goals
 * As a user, I'd to see a progress bar to measure funding.
@@ -14,7 +15,7 @@
 
 
 * DESIGN: Style alternating tiles.
-* DESIGN: Custom tab icon (ask Katrina).
+* DONE DESIGN: Custom tab icon (ask Katrina).
 
 ## Project Model
 * goal date (ember moment)

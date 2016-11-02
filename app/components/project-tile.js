@@ -5,12 +5,8 @@ export default Ember.Component.extend({
 
   actions: {
     addToWishlist(item) {
-      this.get('wishlist').add(item);
-    },
-
-    // removeFromWishlist(item) {
-    //   console.log('remove: '+item);
-    //   this.get('wishlist').remove(item);
-    // }
+      this.get('wishlist').add(item); //adds to wishlist
+      $('.ui.small.modal').modal('show'); //pops up modal
+    }
   }
 });

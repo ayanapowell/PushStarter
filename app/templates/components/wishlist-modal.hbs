@@ -1,0 +1,11 @@
+<div class="ui small modal">
+  <i class="close icon large"></i>
+  <div class="header">Your wishlist:</div>
+  <div class="content">
+    <ul>
+      {{#each wishlist.items as |item|}}
+        <li>{{item.name}} - closes {{moment-from-now item.goal_date interval=1000}} <i class="trash icon" {{action 'removeFromWishlist' item}}></i></li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

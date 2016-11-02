@@ -227,3 +227,20 @@ body {
   padding-bottom: 15px;
   font-size: 16px;
 }
+
+/* -------- modal */
+.modal {
+  height: 300px;
+  width: 50%;
+  margin-left: 25%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.modal li {
+  padding: 5px;
+}
+
+.trash {
+  color: #2BDE73;
+}
