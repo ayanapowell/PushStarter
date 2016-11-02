@@ -167,6 +167,11 @@ body {
   color: #2BDE73;
 }
 
+.percentage {
+  color: #2BDE73;
+  font-size: 16px;
+}
+
 /* ---------- project-view ------- */
 .project-view img {
   width: 100%;

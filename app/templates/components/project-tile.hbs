@@ -7,11 +7,12 @@
       {{#link-to 'project' project.id}}<p class="tile-title">{{project.name}}</p>{{/link-to}}
       <p class="tile-content">By: {{project.owner}}</p>
       <p class="tile-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="percentage">{{percentage}}% funded</p>
     </div>
   </div>
   <div class="row funds">
     <div class="col-md-3">
-      <p>Funding goal: ${{project.goal_amount}}</p>
+      <p>Funding goal: ${{project.goal_amount}} </p>
     </div>
     <div class="col-md-3">
       <p>Closes {{moment-from-now project.goal_date interval=1000}}</p>
