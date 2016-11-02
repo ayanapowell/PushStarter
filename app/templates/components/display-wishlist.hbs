@@ -1,0 +1,7 @@
+<ul>
+  {{#each wishlist.items as |item|}}
+    <li>{{item.name}} - closes {{moment-from-now item.goal_date interval=1000}} <i class="trash icon" {{action 'removeFromWishlist' project}}></i></li>
+
+  {{/each}}
+
+</ul>

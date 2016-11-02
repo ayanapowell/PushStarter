@@ -13,9 +13,13 @@ body {
   position: fixed;
 }
 
-.nav h2 {
-  padding-top: 15px;
+.title a {
   font-family: 'Cormorant Garamond', serif;
+  color: #f2f2f2;
+}
+
+.title h2 {
+  padding-top: 15px;
 }
 
 .title span {
@@ -156,6 +160,11 @@ body {
 .funds {
   text-align: center;
   padding-top: 30px;
+}
+
+.heart:hover {
+  cursor: pointer;
+  color: #2BDE73;
 }
 
 /* ---------- project-view ------- */

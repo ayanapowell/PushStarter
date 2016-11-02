@@ -10,22 +10,26 @@
     </div>
   </div>
   <div class="row funds">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <p>Funding goal: ${{project.goal_amount}}</p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <p>Closes {{moment-from-now project.goal_date interval=1000}}</p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <p>${{project.current_amount}}.00 contributed</p>
     </div>
-    <!-- ^replace with computed properties & ember.moment -->
+
+    <div class="col-md-3">
+      <i class="heart icon large" {{action 'addToWishlist' project}}></i>
+    </div>
+    <!-- ^replace with computed properties & ember.moment
   </div>
   <div class="tile-footer">
     {{#if project.funded}}
       <p>Goal has been met!</p>
     {{else}}
-      <!-- <p>Help {{project.author}} meet their goal!</p> -->
+      <!- <p>Help {{project.author}} meet their goal!</p> -->
     {{/if}}
     <!-- <h4>{{project.location}}</h4> -->
   </div>
