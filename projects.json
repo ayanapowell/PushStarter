@@ -1,0 +1,36 @@
+
+{ "projects": [{
+    "name": "Veruca Salt",
+    "detail": "San Francisco",
+    "owner": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "goal_date": "2016-11-15",
+    "current_amount": 5,
+    "goal_amount": 15,
+    "funded": false,
+    "location": "Portland OR",
+    "email": "email@address.com"
+  }, {
+    "name": "Veruca Salt",
+    "detail": "San Francisco",
+    "owner": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "goal_date": "2016-11-15",
+    "current_amount": 5,
+    "goal_amount": 15,
+    "funded": false,
+    "location": "Portland OR",
+    "email": "email@address.com"
+  }, {
+    "name": "Veruca Salt",
+    "detail": "San Francisco",
+    "owner": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "goal_date": "2016-11-15",
+    "current_amount": 5,
+    "goal_amount": 15,
+    "funded": false,
+    "location": "Portland OR",
+    "email": "email@address.com"
+  }]
+}
