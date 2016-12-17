@@ -1,4 +1,4 @@
-# E-commerce
+# PushStarter
 
 Inspired by kickstarter, users can fund projects and/or favorite them.
 
